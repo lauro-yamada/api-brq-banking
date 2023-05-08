@@ -17,6 +17,7 @@ public class DadosListagemMovimentacao {
     private TipoMovimentacao tipo;
     private LocalDateTime data;
     private BigDecimal valorTaxaAdm;
+    private Long idCliente;
 
     public DadosListagemMovimentacao(Movimentacao dados) {
         this.id = dados.getIdMovimentacao();
@@ -24,6 +25,7 @@ public class DadosListagemMovimentacao {
         this.tipo = dados.getTipo();
         this.data = dados.getData();
         this.valorTaxaAdm = dados.getValorTaxaAdm();
+        this.idCliente = dados.getCliente().getId();
     }
 
 }
