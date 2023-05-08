@@ -21,12 +21,12 @@ insert into cliente (nome, data_nascimento, saldo, numero_conta, plano_exclusive
   values ('Jose Maria', '1988-10-30', 1000, '3456', false);
 insert into movimentacao (tipo, valor, data, valor_taxa_adm, id_cliente) values (1, 100, '2023-05-07T22:52:05.012896', 0, 1);
 insert into movimentacao (tipo, valor, data, valor_taxa_adm, id_cliente) values (0, 3500, '2023-05-07T20:52:05.012896', 35, 1);
+insert into movimentacao (tipo, valor, data, valor_taxa_adm, id_cliente) values (0, 200, '2023-05-06T20:52:05.012896', 0.8, 1);
 
 insert into cliente (nome, data_nascimento, saldo, numero_conta, plano_exclusive)
   values ('Maria Jose d Silva', '1977-11-23', 1000, '3456', true);
-
- insert into movimentacao (tipo, valor, data, valor_taxa_adm, id_cliente) values (1, 150, '2023-05-07T22:52:05.012896', 0, 2);
- insert into movimentacao (tipo, valor, data, valor_taxa_adm, id_cliente) values (0, 500, '2023-05-07T20:52:05.012896', 0, 2);
-  insert into movimentacao (tipo, valor, data, valor_taxa_adm, id_cliente) values (0, 100, '2023-05-07T20:52:05.012896', 0, 2);
+insert into movimentacao (tipo, valor, data, valor_taxa_adm, id_cliente) values (1, 150, '2023-05-07T22:52:05.012896', 0, 2);
+insert into movimentacao (tipo, valor, data, valor_taxa_adm, id_cliente) values (0, 500, '2023-05-07T20:52:05.012896', 0, 2);
+insert into movimentacao (tipo, valor, data, valor_taxa_adm, id_cliente) values (0, 100, '2023-05-05T20:52:05.012896', 0, 2);
 
 
